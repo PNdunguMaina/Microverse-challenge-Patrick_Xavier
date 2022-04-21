@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+}
+
+body {
+  background-color: #f2f2f2;
+  zoom: 1;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f2f2f2;
+}
+
+#header-img {
+  width: 25%;
+  padding-left: 10px;
+}
+
+#nav-bar a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+}
+
+#email {
+  min-width: 250px;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+#submit {
+  background-color: #f1c40f;
+  border: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#features,
+#pricing,
+#footer {
+  width: 70%;
+  margin: 30px auto;
+  padding-top: 5%;
+}
+
+#how-it-works {
+  padding-top: 5%;
+}
+
+.features-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.icon {
+  min-width: 15%;
+}
+
+.icon i {
+  font-size: 60px;
+  color: darkorange;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #pricing {
+    display: flex;
+    flex-direction: column;
+  }
+}
